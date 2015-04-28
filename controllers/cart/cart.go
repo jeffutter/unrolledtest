@@ -3,9 +3,9 @@ package cart
 import (
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
+	"github.com/jeffutter/unrolledtest/controllers/cart/checkout"
+	"github.com/jeffutter/unrolledtest/modules/template"
 	"net/http"
-	"unrolledtest/controllers/cart/checkout"
-	"unrolledtest/modules/template"
 )
 
 func Router(main *mux.Router) *mux.Router {

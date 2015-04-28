@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
+	"github.com/jeffutter/unrolledtest/controllers/cart"
+	"github.com/jeffutter/unrolledtest/modules/utils"
 	"github.com/joho/godotenv"
-	"unrolledtest/controllers/cart"
-	"unrolledtest/modules/utils"
 )
 
 func main() {

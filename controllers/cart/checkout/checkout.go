@@ -3,8 +3,8 @@ package checkout
 import (
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
+	"github.com/jeffutter/unrolledtest/modules/template"
 	"net/http"
-	"unrolledtest/modules/template"
 )
 
 func Router(main *mux.Router) *mux.Router {
